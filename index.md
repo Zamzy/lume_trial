@@ -5,4 +5,4 @@ layout: layouts/main.njk
 
 # ホーム
 
-文章 [リンク](https://example.com)
+文章
