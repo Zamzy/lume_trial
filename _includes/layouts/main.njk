@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
     <meta charset="UTF-8">
-    <title>{{ title }}</title>
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Profile</title>
+    <link rel="stylesheet" href="/styles.css">
+    
+        <!-- <link rel="stylesheet" href="stylesheet/about-kazari.css> 
+        <link rel="stylesheet" href="stylesheet/bicycle-kazari.css">
+        <link rel="icon" href="favicon.ico" sizes="32x32" />
+        
+        -->    
+    <link rel="icon" href="img/favicon.ico">
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <img src="img/logo.svg" alt="Profile" >
+        </div>
+        <div class="header-list">
+            <ul>
+            <li>
+                <a href="#bicycle">Bicycle</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+
     <main>
-      {{ content | safe }}
+      <div class = "mainvisual">
+          <img src="img/mainvisual.jpg" alt="1920 x 1280">
+        </div>
+      <section class="about">
+          <h2>About</h2>
+          <div class = "about-container">
+            <div class = "image">
+              <img src="img/IMG_2374.jpg" alt="Zamzy_me">
+            </div>
+            <div class = "text">
+              <h4 class="myname">Zamza Fluens</h4>
+                <p>テキストテキストテキストテキストテキストテキストテキスト<br>
+                 テキストテキストテキストテキストテキストテキストテキスト<br>
+                 テキストテキストテキストテキストテキストテキストテキスト</p>
+             </div>
+        </div>
+      </section>
+      <section class = "bicycle">
+          <h2>Bicycle</h2>
+          <ul>
+              <li>
+                <img src="img/bicycle1.jpg" alt="640 x 424">
+                <h3>タイトルタイトル</h3>
+                <p>テキストテキストテキスト</p>
+              </li>
+              <li>
+                <img src="img/bicycle2.jpg" alt="640 x 424">
+                <h3>タイトルタイトル</h3>
+                <p>テキストテキストテキスト</p>
+              </li>
+              <li>
+                <img src="img/bicycle3.jpg" alt="640 x 424">
+                <h3>タイトルタイトル</h3>
+                <p>テキストテキストテキスト</p>
+              </li>
+          </ul>
+      </section>
     </main>
-  </body>
+    <footer>
+     <div id="footer">
+        ©︎2020 Profile
+     </div>
+    </footer>
+</body>
 </html>
