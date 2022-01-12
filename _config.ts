@@ -5,6 +5,8 @@ const site = lume({
   location: new URL("https://example.com/"),
 });
 
-site.use(postcss());
+site
+  .use(postcss())
+  .copy("img");
 
 export default site;
