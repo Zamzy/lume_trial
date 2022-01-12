@@ -32,28 +32,22 @@
           </div>
           <div class="text">
             <h4 class="myname">Zamza Fluens</h4>
-            <p>テキストテキストテキストテキストテキストテキストテキスト<br> テキストテキストテキストテキストテキストテキストテキスト<br> テキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキスト<br> テキストテキストテキストテキストテキストテキストテキスト<br> テキストテキストテキストテキストテキストテキストテキスト
+            </p>
           </div>
         </div>
       </section>
       <section class="bicycle">
         <h2>Bicycle</h2>
         <ul>
-          <li>
-            <img src="/img/bicycle1.jpg" alt="640 x 424">
-            <h3>タイトルタイトル</h3>
-            <p>テキストテキストテキスト</p>
-          </li>
-          <li>
-            <img src="/img/bicycle2.jpg" alt="640 x 424">
-            <h3>タイトルタイトル</h3>
-            <p>テキストテキストテキスト</p>
-          </li>
-          <li>
-            <img src="/img/bicycle3.jpg" alt="640 x 424">
-            <h3>タイトルタイトル</h3>
-            <p>テキストテキストテキスト</p>
-          </li>
+          {% for bicycle in bicycles %}
+            <li>
+              <img src="{{ bicycle.img }}" alt="640 x 424">
+              <h3>{{ bicycle.title }}</h3>
+              <p>{{ bicycle.description }}</p>
+            </li>
+          {% endfor %}
         </ul>
       </section>
     </main>
@@ -63,4 +57,4 @@
       </div>
     </footer>
   </body>
-</html>
+</html></body></html>

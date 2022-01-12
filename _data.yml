@@ -1,0 +1,10 @@
+bicycles:
+  - title: bicycle1
+    img: /img/bicycle1.jpg
+    description: 格好いい自転車
+  - title: bicycle2
+    img: /img/bicycle2.jpg
+    description: 速い自転車
+  - title: bicycle3
+    img: /img/bicycle3.jpg
+    description: すごい自転車
